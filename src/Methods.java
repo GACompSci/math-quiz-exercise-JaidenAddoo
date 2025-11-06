@@ -40,4 +40,8 @@ public class Methods {
         }
         return (int)(Math.random() * (max - min + 1)) + min;
     }
+    public static double areaOfRectangle(double l, double w){
+        double a = l*w;
+        return a; 
+    }
 }
