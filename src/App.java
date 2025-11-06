@@ -57,7 +57,7 @@ num1 = Methods.randInt(1, 10);
 num2 = Methods.randInt(1, 10);
 
 double ans4 = (double) num1 / num2; 
-ans4 = Math.round(ans4 * 100.0) / 100.0;  
+ans4 = Math.round(ans4 * 100.0) / 100.0;  //2deci
 
 System.out.println("What is " + num1 + " / " + num2 + " ?");
 double guessDouble = bob.getDouble("Your guess: ");
